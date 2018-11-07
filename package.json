@@ -6,7 +6,7 @@
   },
   "description": "use a React.js component as web component",
   "main": "dist/reactive-elements.cjs.js",
-  "module": "dist/reactive-elements.esm.mjs",
+  "module": "dist/reactive-elements.esm.js",
   "source": "src/reactive-elements.js",
   "scripts": {
     "test": "npm run build && karma start",
@@ -84,7 +84,6 @@
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
-    "babel-plugin-transform-custom-element-classes": "^0.1.0",
     "jasmine": "^3.0.0",
     "jasmine-core": "^3.0.0",
     "karma": "^2.0.0",
